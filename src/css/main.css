@@ -1,0 +1,196 @@
+.container {
+  max-width: 1400px !important;
+}
+
+body {
+  background: no-repeat;
+  background-image: url(../img/header-bg.png);
+  background-size: 101%;
+  background-position-y: -230px;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+h4 {
+  text-align: center;
+  font-family: Montserrat !important;
+  color: #556B9F !important;
+  font-weight: bold !important;
+}
+
+h3 {
+  font-family: Montserrat !important;
+  color: #556B9F !important;
+  font-weight: bold !important;
+}
+
+h5 {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.header {
+  margin-top: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #556B9F;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.header__logo {
+  font-size: 38px;
+}
+
+.header-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-info__title {
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  margin-left: 15px;
+}
+
+.header-info__title:last-child {
+  margin-right: 0px;
+}
+
+.hero {
+  margin-top: 200px;
+  width: 50%;
+}
+
+.hero__title {
+  font-size: 38px;
+  margin: 0 !important;
+}
+
+.hero__undertitle {
+  margin: 0 !important;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.hero__text {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hero__button {
+  background: #F3A500;
+}
+
+.hero__buttontext {
+  margin: 0px !important;
+  padding: 5px 15px 5px 15px;
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 420px;
+  margin-bottom: 73px;
+}
+
+.quote__text {
+  margin-left: 144px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.consultation-container {
+  margin-top: 63px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.consultation__title {
+  font-size: 33px;
+  line-height: 40px;
+}
+
+.consultation-block {
+  margin-right: 40px;
+  width: 50%;
+}
+
+.consultation-block__title {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.consultation-block-list__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.articles__title {
+  font-size: 33px;
+}
+
+.articles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.articles-container-block {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.articles-container-block-info {
+  background-color: #E2E2E2;
+}
+
+.articles-container-block-info__title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.articles-container-block-info__text {
+  margin-bottom: 15px;
+}
+
+.articles-container-block-info__link {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
