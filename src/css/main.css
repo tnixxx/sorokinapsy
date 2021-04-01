@@ -38,6 +38,14 @@ h5 {
   font-weight: bold;
 }
 
+b {
+  font-weight: 600 !important;
+}
+
+.button {
+  background: #F3A500;
+}
+
 .header {
   padding-top: 42px;
   display: flex;
@@ -70,7 +78,7 @@ h5 {
 }
 
 .hero {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 20px;
   width: 50%;
 }
@@ -197,41 +205,130 @@ h5 {
   line-height: 21px;
 }
 
-.articles {
-  margin-bottom: 60px;
-}
-
 .articles__title {
   font-size: 33px;
+  padding-top: 63px;
+  margin-bottom: 77px;
 }
 
-.articles-container {
+.articles-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.articles-container-block {
-  max-width: 440px;
+.articles-list__item {
+  max-width: 400px;
+  border-radius: 15px;
+  background-color: #EEEEEE;
   box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.articles-container-block__img {
+.articles-list__item__img {
+  max-width: 400px;
   border-radius: 15px 15px 0px 0px;
+  margin-bottom: 25px;
 }
 
-.articles-container-block-info {
-  background-color: #E2E2E2;
+.articles-list__item__info {
+  margin-left: 21px;
+  margin-right: 21px;
 }
 
-.articles-container-block-info__title {
-  margin-top: 25px;
+.articles-list__item__info__title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.articles-list__item__info__text {
+  margin-top: 15px;
   margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
-.articles-container-block-info__text {
-  margin-bottom: 15px;
+.articles-list__item__info__link {
+  color: black !important;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: underline #F3A500 2px !important;
 }
 
-.articles-container-block-info__link {
-  color: black;
+.articles-button {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust {
+  margin-bottom: 60px;
+}
+
+.trust__title {
+  margin-top: 60px;
+  margin-bottom: 90px;
+  font-size: 33px;
+  line-height: 40px;
+}
+
+.trust-imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trust-imgs__doc {
+  max-width: 580px;
+}
+
+.trust-imgs__doc:first-child {
+  margin-right: 88px;
+}
+
+.contacts__title {
+  font-size: 33px;
+}
+
+.contacts__undertitle {
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.contacts-list__item {
+  display: flex;
+}
+
+.contacts-list__item__info {
+  margin-left: 20px;
+}
+
+.contacts-list__item__info__title {
+  margin-bottom: 0px !important;
+  color: #505050;
+  font-size: 16px;
+}
+
+.contacts-list__item__info__link {
+  font-size: 16px;
+  margin-bottom: 0px !important;
+  color: black !important;
+}
+
+.form-container__input {
+  padding: 5px 12px 5px 12px;
+  max-width: 356px;
+  border-color: #DDDDDD !important;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
