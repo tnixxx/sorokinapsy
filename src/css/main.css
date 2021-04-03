@@ -12,7 +12,6 @@
 
 a {
   text-decoration: none !important;
-  color: #556B9F !important;
 }
 
 p {
@@ -42,6 +41,10 @@ b {
   font-weight: 600 !important;
 }
 
+span {
+  color: white;
+}
+
 .button {
   background: #F3A500;
 }
@@ -57,6 +60,7 @@ b {
 }
 
 .header__logo {
+  color: #556B9F !important;
   font-size: 38px;
 }
 
@@ -68,6 +72,7 @@ b {
 }
 
 .header-info__title {
+  color: #556B9F !important;
   margin-right: 0 !important;
   margin-top: 0 !important;
   margin-left: 15px;
@@ -325,10 +330,111 @@ b {
   color: black !important;
 }
 
-.form-container__input {
-  padding: 5px 12px 5px 12px;
-  max-width: 356px;
-  border-color: #DDDDDD !important;
-  border-radius: 5px;
+.article-menu__link {
+  color: #666666 !important;
+}
+
+.article-menu__arrow {
+  color: #666666;
+}
+
+.article-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 920px;
+}
+
+.article-block__title {
+  font-weight: 500 !important;
+  color: #505050;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.article-block__text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.article__img {
+  max-width: 420px;
+  border-radius: 10px;
+  border: 3px solid #F3A500;
+}
+
+a {
+  color: white !important;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info__title {
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 15px;
+  color: white !important;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-block__link {
+  margin-bottom: 10px;
+}
+
+.info-block__link::last-child {
+  margin-bottom: 0px;
+}
+
+.blog__title {
+  color: white;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 15px;
+}
+
+.blog-block-news {
+  margin-bottom: 20px;
+}
+
+.blog-block-news:last-child {
+  margin-bottom: 0px;
+}
+
+.blog-block-news__link {
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 10px;
+}
+
+.psy__title {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.psy-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.psy-block__link {
+  margin-bottom: 10px;
+}
+
+.psy-block__link:last-child {
+  margin-bottom: 0px;
+}
+
+.primarylink {
+  color: #F3A500 !important;
 }
 /*# sourceMappingURL=main.css.map */
