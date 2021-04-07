@@ -1,0 +1,33 @@
+.help
+    padding-bottom: 60px
+    &__title
+        padding-top: 60px
+        margin-bottom: 70px
+    &-list
+        display: flex
+        flex-wrap: wrap
+    
+.item
+    max-width: 600px
+    background-color: white
+    border-radius: 7px
+    margin-bottom: 30px
+    padding-right: 45px
+    padding-left: 45px
+    padding-bottom: 18px
+    padding-top: 25px
+    &:nth-child(odd)
+        margin-right: 30px
+    &__title
+        display: flex
+        align-items: center
+        font-size: 20px
+        line-height: 26px
+        &::before
+            content: url(../img/help-arrow.svg)
+            margin-right: 15px
+
+    &__text
+        font-size: 20px
+        line-height: 26px
+    
